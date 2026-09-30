@@ -1,7 +1,7 @@
 <?php
 
-$firstname = $_GET["firstname"];
-$surname = $_GET["surname"];
+$firstname = $_POST["firstname"];
+$surname = $_POST["surname"];
 
 echo "<h1>Hello $firstname $surname!</h1>";
 
